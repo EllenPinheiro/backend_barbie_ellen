@@ -5,6 +5,6 @@ export default interface FilmeRepositorioInterface {
 type FilmeDTO = {
     id: number,
     titulo: string,
-    descricao: string,
-    foto: string
+    sinopse: string,
+    imagem: string
 }

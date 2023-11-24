@@ -5,8 +5,8 @@ describe("Banco em memória",()=>{
         const input= {
             id:1,
             titulo:"test",
-            descricao:"test",
-            foto:"test",
+            sinopse:"test",
+            imagem:"test",
         }
         const bancoEmMemoria = new BancoEmMemoria();
         const result = await bancoEmMemoria.salvar(input)

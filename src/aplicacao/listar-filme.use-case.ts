@@ -9,6 +9,6 @@ export default class ListarFilme{
 type Filme = {
     id:number,
     titulo:string,
-    descricao:string,
-    foto:string
+    sinopse:string,
+    imagem:string
 }
